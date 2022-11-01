@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Socket Basico</title>
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <header class="header1">
+      <div class="titulo1">Sockets.io</div><div class="titulo2">Cerna Pérez Ian Daniel 5IV10</div>      
+    </header>
+    <div class="contenedor1">
+      <h1 class="encabezado">Usuarios</h1>
+      <div id="notificaciones" class="notificaciones">
+
+      </div>
+    </div>
+    <div class="contenedor2">
+      <h1 class="encabezado">Chat</h1>
+      <div class="contenedorChat" id="salida">
+        <div class="avisos" id="avisos">
+        </div>
+      </div>
+      <input type="text" class="usuario" id="usuario" placeholder="Usuario" required ><br><br><input type="text" class="mensaje" id="mensaje" placeholder="Mensaje" required><button class="botonEnvio" id="enviar">Enviar</button>
+    </div>
+
+    <script src="js/socket.io.js"></script>
+    <script src="js/logica.js" charset="utf-8"></script>
+  </body>
+</html>

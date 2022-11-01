@@ -1,0 +1,107 @@
+*{
+    width: 1325px;
+    max-width: 1325px;
+    background-color: #b8bfc5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header1{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: #111111;
+    padding: 40px;
+    display: block;
+    height: 40px;
+    
+
+}
+.titulo1{
+    position:absolute;
+    color: aliceblue;
+    font-size: 40px;
+    background-color: transparent;
+}
+
+.titulo2{   
+    position:absolute;
+    top: 46px;
+    left: 900px;
+    color: aliceblue;
+    font-size: 30px;
+    background-color: transparent;
+    font-weight: 300;
+    width: 370px;
+    
+}
+.contenedor1{
+
+    position: absolute;
+    background-color: whitesmoke;
+    top: 200px;
+    left: 50px;
+    width: 500px;
+    padding-bottom: 20px;
+    background-color: #333a3a;
+    border-radius: 40px;
+}
+.contenedor2{
+    position: absolute;
+    top: 200px;
+    left: 700px;
+    width: 500px;
+    padding-bottom: 20px;
+    background-color: #333a3a;
+    border-radius: 40px;
+}
+.encabezado{
+    position: relative;
+    background-color: transparent;
+    left: 40px;
+    width: 300px;
+    color: rgb(206, 199, 199);
+}
+.notificaciones{
+    position:relative;
+    width: 420px;
+    height: 270px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    left: 40px;
+    margin-bottom: 10px;
+}
+.contenedorChat{
+    position:relative;
+    width: 420px;
+    height: 200px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    left: 40px;
+    margin-bottom: 10px;
+}
+.botonEnvio{
+    background-color:#b8bfc5;
+    position: relative;
+    left: 70px;
+    width: 80px;
+}
+.mensaje{
+    background-color: whitesmoke;
+    position: relative;
+    left: 50px;
+    width: 300px;
+}
+.usuario{
+    width: 300px;
+    background-color: whitesmoke;
+    position: relative;
+    left: 50px;
+    width: 100px;
+}
+.avisos{
+    position: relative;
+    font-style: italic;
+    height: 20px;
+    width: 420px;
+    color: #333a3a;
+    background-color: transparent;
+}
